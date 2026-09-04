@@ -8,9 +8,9 @@
 
 ## Notes
 
-- This repo was written with Claude Code in mind, but can easily be adapted for any AI service with file system access.
+- This repo was written with Claude Code in mind, but can easily be adapted for any AI with file system access.
 - This is not a cheap process to run and will likely blow through your usage limit on a free tier.
 - The process will start self-calibrating to optimize for better picks going forward after the fifth week.
 - In order for the process to continue self-calibrating, you must let the AI consistently manage the folder/files.
-- Nothing in this repo, nor the results of the work of the AI based on this repo should be considered financial advice.
+- Nothing in this repo, nor the results of the process, should be considered financial advice.
 - We strongly suggest paper trading until you are comfortable risking real money.
