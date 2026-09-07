@@ -52,6 +52,42 @@ the sample size says.
 
 ---
 
+## 2026-09-07b - The universe.csv diff is a free corporate-actions feed
+
+Noticed while answering a question about the weekly universe refresh, not from
+any deliberate check - which is the point.
+
+`.cache/universe.csv` is a cache of the NASDAQ Trader symbol directory that
+`swing_screen.py` re-downloads once its age passes the weekly threshold. Its
+git diff between two runs is therefore a **list of what stopped and started
+trading that week**, and the removals are dominated by completed mergers.
+The 2026-09-07 refresh dropped 22 symbols, including CRNX (acquired by
+Vertex, $85/share cash, ~$10B, delisted Sept 1), LEG (merged into Somnigroup
+Aug 26) and TWO (taken private by CrossCountry Mortgage Aug 25).
+
+**The miss it exposed.** CRNX was bought by **VRTX**, which this cycle put in
+the table at 9.6% of the book - and the written thesis never mentioned the
+acquisition. Step 3 surfaced the guidance raise, JOURNAVX ramp and the
+zimislecel manufacturing postponement, but not a $10B cash deal that closed
+four sessions before entry. Direction of the call is unchanged (the tape
+absorbed it constructively - up/down volume 2.41, clean structure, 2.5% off
+the high, and the deal diversifies Vertex away from CF dependence), so this
+is not the AXON-style case of a thesis the tape contradicts. It is the
+BX-style case: a live story on a large position that the note failed to name.
+
+**Standing rule to add: check completed corporate actions for every
+finalist, and use the universe diff to do it.** After Step 1 regenerates the
+cache, `git diff .cache/universe.csv` costs one command and names every
+delisting of the week. Cross-reference the removals against the finalists'
+*acquirers*, not just against the finalist tickers themselves - the pick that
+needed this was the buyer, and buyers never leave the universe. That also
+covers the process doc's merger-arb-pinning rule from the other direction:
+the doc warns about holding a target, and this catches the acquirer.
+
+**Nothing changed in code or constants for this.**
+
+---
+
 ## 2026-09-07 — The 2026-08-31 batch graded: -1.89% into a rising tape
 
 **The result.** 18 picks, 5 wins / 13 losses, avg -2.18% per name, portfolio
