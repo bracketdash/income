@@ -52,6 +52,57 @@ the sample size says.
 
 ---
 
+## 2026-09-07 — The 2026-08-31 batch graded: -1.89% into a rising tape
+
+**The result.** 18 picks, 5 wins / 13 losses, avg -2.18% per name, portfolio
+**-1.89%** on capital with 0% cash. The week it was held (Mon 2026-08-31 ->
+Fri 2026-09-04) SPY opened-to-closed **+0.37%**, QQQ +0.53%, IWM +0.31%. So
+this was not a batch dragged down by a bad tape — it *underperformed a
+rising market by roughly 2.3 points*. That matters for how to read it: there
+is no market excuse available.
+
+**Read it as evidence about the research gap, exactly as predicted.** The
+2026-09-04 entry below said to read a poor result from this batch as
+evidence about the seven unresearched names rather than about the method,
+and the outcome cooperates: AXON -12.7% (called a "pullback" while trading
+below its 20d SMA), EXPE -8.4%, ESTC -6.3%, U -4.1% (called "not
+distribution" at 0.50 up/down volume), BX -3.8% (live private-credit
+redemption story, unmentioned). The two names `technicals.py` explicitly
+contradicted were the single worst and the fourth worst in the book. The
+standing lessons about the news gate and checking the thesis against the
+tape are now paid for twice over — **treat them as hard rules, not
+aspirations.**
+
+**Sizing passed again — second data point.** Conviction/volatility weighting
+returned -1.89% against -2.18% equal-weighted, **+0.29 pts**. Prior batch
+was +0.82 pts. Two for two. No reason to touch `MAX_WEIGHT` or
+`CONVICTION_POWER`.
+
+**Conviction inverted, and this is now the pattern to watch.** This batch:
+4s -3.01% (n=4), 3s -2.23% (n=13), 2s +1.86% (n=1). Prior batch: 4s -1.0%,
+3s -0.4%, 2s -5.1%. Across both, **the 4-bucket has been the worst or
+near-worst bucket twice running** (n=7 total). One inversion is variance;
+two consecutive is worth naming, but seven picks is far below the 5-batch /
+40-pick threshold the process sets for touching a constant, so **nothing is
+being changed this cycle.** The honest read is that a "4" has been going to
+names with the loudest recent move rather than the cleanest setup — the
+2026-08-31 4s were AXON, EXPE, BX, CRM. Adjusting *judgment* rather than
+arithmetic: this cycle, reserve 4 for names where the catalyst is dated and
+still ahead, and refuse to award it on the strength of a move that has
+already happened.
+
+**Setup types, first cycle where the labels mean anything.** pullback -2.52%
+(n=12), post-earnings drift -1.10% (n=3), breakout -0.80% (n=2),
+relative-strength continuation -4.14% (n=1). The pullback bucket dominated
+the book and dragged it. Caveat that at least two of those "pullbacks" were
+misclassified breakdowns, so the label's poor showing is partly a research
+failure wearing a setup's name. Sample is one batch — carry it as a
+question into the next few cycles, not a rule.
+
+**Nothing changed in code or constants this cycle.**
+
+---
+
 ## 2026-09-04 — Everything learned so far, and why the record restarts here
 
 **Read this before drawing any conclusion from the two logged batches.**

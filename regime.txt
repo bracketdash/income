@@ -1,0 +1,10 @@
+Generated: 2026-09-07 14:23 EDT (market closed)
+
+SPY: 770.19 (above 50d SMA), 5d +0.1%, 20d -0.4%
+QQQ: 718.96 (above 50d SMA), 5d +0.4%, 20d -0.6%
+VIX: 15.3 (rising vs 5d ago: 14.9)
+10Y yield (^TNX): 4.78 (rising vs 10d ago: 4.74)
+Breadth: 782/1585 (49%) of liquid universe above its 50d SMA
+
+NOTE: Fed/CPI/PCE/jobs calendar and rate-CUT-vs-HIKE direction are
+not pulled here -- confirm those live (web search) before writing the regime call.
