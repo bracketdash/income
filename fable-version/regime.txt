@@ -1,0 +1,10 @@
+Generated: 2026-09-13 13:52 EDT (market closed)
+
+SPY: 764.29 (above 50d SMA), 5d -1.1%, 20d -1.7%
+QQQ: 714.88 (above 50d SMA), 5d -0.4%, 20d -2.3%
+VIX: 15.8 (rising vs 5d ago: 14.5)
+10Y yield: 4.97 (rising vs 10d ago: 4.67)
+Breadth: 632/1583 (40%) of liquid universe above its 50d SMA
+
+Macro calendar (FOMC / CPI / PCE / jobs) and rate direction are NOT
+pulled here -- confirm by web search before scoring the regime.

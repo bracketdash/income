@@ -52,6 +52,88 @@ the sample size says.
 
 ---
 
+## 2026-09-13 - Third batch graded; first pooled read worth trusting
+
+**The batch.** 2026-09-08 (Tue-Fri, 4 sessions): 4 wins / 9 losses, avg
+-2.45% per name, portfolio **-2.23%** on capital at 0% cash. That week SPY
+fell 0.62%, QQQ 0.84% and IWM **2.18%**, so the tape was against it, but the
+book still trailed SPY by ~1.6 points. XLE rose 0.48% - energy was the only
+green sector, which the regime call did get right (DHT +4.5%, COP +0.9%).
+
+**Three losing batches in a row: -0.30%, -1.89%, -2.23%.** State that plainly
+rather than around it. The one that lost least is also the only one that held
+meaningful cash (35%).
+
+### What the pooled 43 picks now say
+
+**Conviction is monotonic and the rubric is vindicated.** 4s -0.86% (n=11),
+3s -2.46% (n=28), 2s -3.34% (n=4). Correctly ordered at every step. The two
+earlier per-batch "inversions" were small-sample noise, exactly as the rule
+about not overreacting to one batch predicted. **This retires the inversion
+worry** - do not keep flagging it. 2s remain the worst bucket across all
+three batches (as the 2026-09-04 note guessed), and at n=4 the cheapest fix
+is still to stop including 2s rather than to re-weight them.
+
+**Sizing has now added value three times out of three: +1.43, +0.29, +0.22
+points** against equal weight. This batch shows the mechanism cleanly - the
+two largest positions (JXN 14.2%, COP 10.3%) finished flat-to-positive while
+the three worst losers (RELY -15.3%, TARS -11.6%, AGCO -9.0%) were among the
+smallest, because their wide ATRs earned them small budgets. The weighting
+scheme is the most validated part of this system. Leave its constants alone.
+
+**Setup type, and this is the actionable one.** The only positive buckets are
+post-earnings drift **+1.38%** (n=4) and post-earnings pullback **+0.61%**
+(n=3). Everything else is negative: breakout -2.31% (n=6), **pullback -2.60%
+(n=23)**, relative-strength continuation -3.18% (n=5), post-catalyst momentum
+-4.79% (n=2). Pullback is by far the largest bucket and the main drag.
+Confound to keep in view: batches 1-2 were screened at broken or depressed
+VolRatio, which makes the Pullback flag (<=0.9) fire almost by default, so
+some of those labels are clock artifacts rather than setups. But batch 3 had
+a legitimate 0.67 median and its six pullbacks still averaged -2.96%.
+**Adjusting judgment, not constants: lean toward names with a fresh earnings
+catalyst and be far more sceptical of a generic "pullback" label** - require
+it to be an orderly pullback confirmed by up/down volume, not merely a stock
+that drifted down in a quiet tape.
+
+**Sector:** Energy +0.76% (n=4) best, Industrials -6.63% (n=5) worst,
+Healthcare -2.35% (n=11) a persistent drag on a real sample.
+
+### The technicals.py flags are earning their keep
+
+This batch: the four EXTENDED names averaged **-4.79%** against **-1.42%**
+for the nine clean ones, and three of them (TARS -11.6%, AGCO -9.0%, MRX
+-7.4%) were three of the four worst picks. DELL +8.9% was the sole exception.
+Add the prior batch's AXON -12.7% and U -4.1% and flagged names are now 1
+win / 5 losses across two cycles.
+
+The standing lesson said a flag must be *answered* in the Notes. That was
+done here - every EXTENDED name carried an explicit paragraph about its
+extension - and it did not help. **Sharpen the rule: answering a flag in
+prose is not the same as heeding it.** Treat EXTENDED as a reason to cut
+conviction by one, not merely to write a sentence. Sample is ~6 names, so
+this is a judgment adjustment, not a constant change.
+
+Related: RELY (1.78x its expected move), TARS (1.56x) and AGCO (1.27x) all
+travelled further than trailing ATR predicted, which is what an event week
+does to a volatility estimate built from calm sessions.
+
+### The cash mechanism is not braking anything
+
+Regime 2 produced **0% cash twice** (this batch and 2026-08-24 aside), because
+cash is set by whether the book's trailing-ATR volatility clears the regime's
+target - and a book assembled from clean, low-ATR names comes in under target
+even at a low one. Here it measured 2.1% against a 3.0% target and deployed
+everything, straight through a CPI print. That is the design working as
+specified, but the practical consequence is that **the regime score has not
+functioned as a risk brake in two of three cycles.** Flagging, not fixing: at
+3 batches this is under the 5-batch bar for touching REGIME_TARGET_VOL, and
+the honest alternative reading is that three down weeks in a row is a tape
+problem rather than a sizing one.
+
+**Nothing changed in code or constants this cycle.**
+
+---
+
 ## 2026-09-07b - The universe.csv diff is a free corporate-actions feed
 
 Noticed while answering a question about the weekly universe refresh, not from
