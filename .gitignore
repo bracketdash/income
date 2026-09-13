@@ -1,0 +1,5 @@
+# Price history pickles are ~50 MB each and regenerated on every run.
+.cache/*.pkl
+.cache/backtest_last.csv
+__pycache__/
+*.pyc
