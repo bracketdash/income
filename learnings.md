@@ -60,6 +60,19 @@ under-reacting to patterns already visible in the pooled data.
   green sector — and still lost, because the names chosen to *express*
   it did not behave like the call, while the mid-cap growth names the call
   said to avoid were held anyway and did the damage (−15%, −12%).
+- **The conviction rubric orders names in both directions of tape.** It
+  was monotonic across three down weeks (4s −0.86%, 3s −2.46%, 2s −3.34%,
+  n=43) and again in the first up week (4s +2.04% n=4, 3s +0.67% n=8). Four
+  cycles, 55 picks, no inversion. It is the only part of the judgment layer
+  with evidence behind it — which is why the rubric is kept identical week
+  to week and 2s are excluded by rule rather than sized down.
+- **The ATR expected move is a dispersion estimate, not a range the week
+  will fill.** Over a full quiet batch the median |realised| / expected was
+  0.57, with only 17% of names exceeding 1.0; in an FOMC week three names
+  ran 1.3–1.8×. The error is not a constant scale — ATR reads wide when
+  nothing is scheduled and tight when something is. Use it for what the
+  sizer uses it for, ranking how far names travel relative to each other,
+  and never as a forecast of the week's move.
 - **VolRatio median is the canary.** Check it before trusting any
   volume-based flag. ~0.8–1.0 is healthy; 0.6–0.8 is a holiday lull;
   0.2–0.3 means a partial session was read as a close.
@@ -135,25 +148,59 @@ Revisited every Step 0b; retired to a rule or a standing lesson once the
 pooled data settles it, or deleted if the evidence goes the other way.
 
 - Does the Breakout edge survive in the pooled pick log? The backtest says
-  yes on ~44 names/week. Settled by: `breakout`-labelled picks vs the rest
-  over 5+ batches.
-- Does sizing still beat equal-weight in an up week? Settled by: the first
-  two graded batches where SPY finished up.
+  yes on ~44 names/week. First batch went the other way — `breakout` picks
+  −3.17% (n=3) against +1.15% for rs-continuation (n=7) — on a sample far
+  too small to weigh against 40 weeks. Settled by: `breakout`-labelled picks
+  vs the rest over 5+ batches.
+- Does sizing still beat equal-weight in an up week? First up week in:
+  it did not. Book +0.51% on capital against +0.73% equal-weight, a cost of
+  0.22 pts, which is exactly what the mechanism predicts when volatile names
+  lead. One of the two up weeks needed. Settled by: the second.
 - Does the research funnel add anything once it starts from a
-  breakout-weighted shortlist? Settled by: picked vs never-researched over
-  3+ batches. If picks keep trailing, change what the research *does*, not
-  how much of it there is.
-- Is the regime deploy cap costing return in the weeks it binds? Settled
-  by: book return vs the same book at 100% deployed, over 5+ capped
-  batches. It will bind often; that is the point, but it has a price.
-
----
+  breakout-weighted shortlist? Two cycles, both negative: picks +1.13% vs
+  +4.12% never-researched and +2.35% rejected this week, and −2.45% vs
+  −1.48% never-researched a cycle earlier. Picks have now trailed the
+  *rejected* set too, which points at selection rather than where the set
+  started. Settled by: a third batch. If it holds, change what the research
+  *does* — not how much of it there is.
+- Is a conviction 3 written around a hole in its own thesis worse than a
+  conviction 3 that is simply a good setup with no fresh catalyst? The two
+  worst names in the first batch were the two whose theses named their own
+  defect — VG −12.6% ("the QatarEnergy report is chatter, not a signed
+  deal") and CRGY −7.3% ("one house already calls it fully priced after a
+  64% run") — while the no-catalyst 3 (ATRC) returned +5.9%. n=2, so
+  suggestive only. Settled by: tagging which 3s are hole-in-thesis vs
+  no-catalyst over 3+ batches. If it holds, the hole becomes a 2, and 2s
+  are already excluded.
+- Is the regime deploy cap costing return in the weeks it binds? First
+  capped batch that has been graded cost about 0.27 pts — +0.51% at 65%
+  deployed against roughly +0.78% the same book fully deployed, in a week
+  that finished up. It will bind often and it has a price; the question is
+  whether the event weeks it protects pay for the quiet ones it taxes.
+  Settled by: book return vs the same book at 100% deployed, over 5+ capped
+  batches.
 
 ## Dated notes
 
 Newest first, one entry per Step 0 review, six lines or fewer, at most four
 kept. Each says what the batch did and what was folded into the sections
 above.
+
+### 2026-09-20 — Batch 2026-09-14 graded (8W/4L, +1.13%/name)
+
+Book +0.51% on capital vs SPY +0.60%, equal-weight +0.73%: sizing cost 0.22
+pts and the 65% cap about 0.27 pts, both in an up week, both as the mechanism
+predicts, so no constant moved. Conviction monotonic again (4s +2.04%, 3s
++0.67%). Funnel 43→12 trailed everything (never-researched +4.12%, rejected
++2.35%); dispersion median 0.57. Folded in: two standing lessons
+(conviction-holds-in-up-tape, ATR-as-dispersion), five open questions
+re-scored including a new one on hole-in-thesis 3s, and two `PROCESS.md`
+rules from the 2026-09-21 run — the VolRatio canary now covers the *high*
+side (an expiry week inflates every volume flag; check pre-expiry volume
+instead) and the events check now warns that the in-window flags use a
+10-day lookahead, not the holding window. Also fixed the sizer's cash-row
+note, which asserted "an event week" whenever the regime cap bound, even
+when the 2 came from breadth and no event was scheduled.
 
 ### 2026-09-13 — Batch 2026-09-14 written (regime 2, 12 names, 35% cash)
 

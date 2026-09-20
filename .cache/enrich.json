@@ -39,7 +39,7 @@
   "next_earnings": "2026-11-05",
   "last_earnings": "2026-08-10",
   "ex_div": "2026-09-10",
-  "fetched": "2026-09-13"
+  "fetched": "2026-09-20"
  },
  "BAND": {
   "sector": "Technology",
@@ -165,7 +165,7 @@
   "next_earnings": "2026-11-12",
   "last_earnings": "2026-08-07",
   "ex_div": "",
-  "fetched": "2026-09-13"
+  "fetched": "2026-09-20"
  },
  "ETON": {
   "sector": "Healthcare",
@@ -193,14 +193,14 @@
   "next_earnings": "2026-11-09",
   "last_earnings": "2026-08-10",
   "ex_div": "",
-  "fetched": "2026-09-13"
+  "fetched": "2026-09-20"
  },
  "MSTR": {
   "sector": "Technology",
   "next_earnings": "2026-10-29",
   "last_earnings": "2026-07-30",
   "ex_div": "",
-  "fetched": "2026-09-13"
+  "fetched": "2026-09-20"
  },
  "AMR": {
   "sector": "Basic Materials",
@@ -235,7 +235,7 @@
   "next_earnings": "2026-11-04",
   "last_earnings": "2026-08-05",
   "ex_div": "",
-  "fetched": "2026-09-13"
+  "fetched": "2026-09-20"
  },
  "SOC": {
   "sector": "Energy",
@@ -403,7 +403,7 @@
   "next_earnings": "2026-11-24",
   "last_earnings": "2026-08-06",
   "ex_div": "",
-  "fetched": "2026-09-13"
+  "fetched": "2026-09-20"
  },
  "MTDR": {
   "sector": "Energy",
@@ -418,5 +418,362 @@
   "last_earnings": "2026-07-28",
   "ex_div": "",
   "fetched": "2026-09-13"
+ },
+ "UMC": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-28",
+  "last_earnings": "2026-07-29",
+  "ex_div": "2026-07-08",
+  "fetched": "2026-09-20"
+ },
+ "SEI": {
+  "sector": "Energy",
+  "next_earnings": "2026-11-02",
+  "last_earnings": "2026-08-05",
+  "ex_div": "2026-09-15",
+  "fetched": "2026-09-20"
+ },
+ "DINO": {
+  "sector": "Energy",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-07-28",
+  "ex_div": "2026-08-11",
+  "fetched": "2026-09-20"
+ },
+ "MXL": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-22",
+  "last_earnings": "2026-07-23",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "TWST": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-11-16",
+  "last_earnings": "2026-08-03",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "CLMT": {
+  "sector": "Basic Materials",
+  "next_earnings": "2026-11-06",
+  "last_earnings": "2026-08-07",
+  "ex_div": "2016-01-29",
+  "fetched": "2026-09-20"
+ },
+ "VLO": {
+  "sector": "Energy",
+  "next_earnings": "2026-10-22",
+  "last_earnings": "2026-07-30",
+  "ex_div": "2026-07-31",
+  "fetched": "2026-09-20"
+ },
+ "AMD": {
+  "sector": "Technology",
+  "next_earnings": "2026-11-03",
+  "last_earnings": "2026-08-04",
+  "ex_div": "1995-04-27",
+  "fetched": "2026-09-20"
+ },
+ "MPC": {
+  "sector": "Energy",
+  "next_earnings": "2026-11-03",
+  "last_earnings": "2026-08-04",
+  "ex_div": "2026-08-19",
+  "fetched": "2026-09-20"
+ },
+ "FFIV": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-26",
+  "last_earnings": "2026-07-27",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "PSX": {
+  "sector": "Energy",
+  "next_earnings": "2026-10-28",
+  "last_earnings": "2026-08-05",
+  "ex_div": "2026-08-18",
+  "fetched": "2026-09-20"
+ },
+ "NTRA": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-11-05",
+  "last_earnings": "2026-08-06",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "PI": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-28",
+  "last_earnings": "2026-07-29",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "COIN": {
+  "sector": "Financial Services",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-07-30",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "RIOT": {
+  "sector": "Financial Services",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-08-10",
+  "ex_div": "2017-10-12",
+  "fetched": "2026-09-20"
+ },
+ "SNDK": {
+  "sector": "Technology",
+  "next_earnings": "2026-11-06",
+  "last_earnings": "2026-08-05",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "HNGE": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-11-03",
+  "last_earnings": "2026-08-04",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "UNM": {
+  "sector": "Financial Services",
+  "next_earnings": "2026-11-03",
+  "last_earnings": "2026-07-28",
+  "ex_div": "2026-07-24",
+  "fetched": "2026-09-20"
+ },
+ "VRSN": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-22",
+  "last_earnings": "2026-07-23",
+  "ex_div": "2026-08-19",
+  "fetched": "2026-09-20"
+ },
+ "COHR": {
+  "sector": "Technology",
+  "next_earnings": "2026-11-04",
+  "last_earnings": "2026-08-12",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "AAPL": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-07-30",
+  "ex_div": "2026-08-10",
+  "fetched": "2026-09-20"
+ },
+ "EBAY": {
+  "sector": "Consumer Cyclical",
+  "next_earnings": "2026-11-04",
+  "last_earnings": "2026-08-05",
+  "ex_div": "2026-08-28",
+  "fetched": "2026-09-20"
+ },
+ "VICR": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-20",
+  "last_earnings": "2026-07-21",
+  "ex_div": "2011-08-05",
+  "fetched": "2026-09-20"
+ },
+ "SNX": {
+  "sector": "Technology",
+  "next_earnings": "2026-09-24",
+  "last_earnings": "2026-06-25",
+  "ex_div": "2026-07-17",
+  "fetched": "2026-09-20"
+ },
+ "HALO": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-11-02",
+  "last_earnings": "2026-08-06",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "MO": {
+  "sector": "Consumer Defensive",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-07-30",
+  "ex_div": "2026-09-15",
+  "fetched": "2026-09-20"
+ },
+ "HCA": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-10-23",
+  "last_earnings": "2026-07-24",
+  "ex_div": "2026-09-16",
+  "fetched": "2026-09-20"
+ },
+ "ISRG": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-10-20",
+  "last_earnings": "2026-07-16",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "PENG": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-06",
+  "last_earnings": "2026-07-07",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "CPA": {
+  "sector": "Industrials",
+  "next_earnings": "2026-11-18",
+  "last_earnings": "2026-08-05",
+  "ex_div": "2026-08-31",
+  "fetched": "2026-09-20"
+ },
+ "TMO": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-10-21",
+  "last_earnings": "2026-07-23",
+  "ex_div": "2026-09-15",
+  "fetched": "2026-09-20"
+ },
+ "MSM": {
+  "sector": "Industrials",
+  "next_earnings": "2026-10-22",
+  "last_earnings": "2026-07-01",
+  "ex_div": "2026-07-08",
+  "fetched": "2026-09-20"
+ },
+ "PRM": {
+  "sector": "Basic Materials",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-07-31",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "LUV": {
+  "sector": "Industrials",
+  "next_earnings": "2026-10-21",
+  "last_earnings": "2026-07-22",
+  "ex_div": "2026-09-03",
+  "fetched": "2026-09-20"
+ },
+ "STAG": {
+  "sector": "Real Estate",
+  "next_earnings": "2026-10-28",
+  "last_earnings": "2026-07-28",
+  "ex_div": "2026-09-30",
+  "fetched": "2026-09-20"
+ },
+ "NTAP": {
+  "sector": "Technology",
+  "next_earnings": "2026-12-01",
+  "last_earnings": "2026-09-02",
+  "ex_div": "2026-10-09",
+  "fetched": "2026-09-20"
+ },
+ "EXPD": {
+  "sector": "Industrials",
+  "next_earnings": "2026-11-03",
+  "last_earnings": "2026-08-04",
+  "ex_div": "2026-06-01",
+  "fetched": "2026-09-20"
+ },
+ "PG": {
+  "sector": "Consumer Defensive",
+  "next_earnings": "2026-10-22",
+  "last_earnings": "2026-07-29",
+  "ex_div": "2026-07-24",
+  "fetched": "2026-09-20"
+ },
+ "FORM": {
+  "sector": "Technology",
+  "next_earnings": "2026-10-28",
+  "last_earnings": "2026-07-29",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "ETN": {
+  "sector": "Industrials",
+  "next_earnings": "2026-11-03",
+  "last_earnings": "2026-07-31",
+  "ex_div": "2026-08-07",
+  "fetched": "2026-09-20"
+ },
+ "DGX": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-10-20",
+  "last_earnings": "2026-07-23",
+  "ex_div": "2026-10-06",
+  "fetched": "2026-09-20"
+ },
+ "ADI": {
+  "sector": "Technology",
+  "next_earnings": "2026-11-24",
+  "last_earnings": "2026-08-19",
+  "ex_div": "2026-09-01",
+  "fetched": "2026-09-20"
+ },
+ "TXNM": {
+  "sector": "Utilities",
+  "next_earnings": "2026-10-30",
+  "last_earnings": "2026-07-31",
+  "ex_div": "2026-09-30",
+  "fetched": "2026-09-20"
+ },
+ "GSAT": {
+  "sector": "Communication Services",
+  "next_earnings": "2026-11-05",
+  "last_earnings": "2026-08-06",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "ATKR": {
+  "sector": "Industrials",
+  "next_earnings": "2026-11-19",
+  "last_earnings": "2026-08-03",
+  "ex_div": "2026-08-18",
+  "fetched": "2026-09-20"
+ },
+ "MKTX": {
+  "sector": "Financial Services",
+  "next_earnings": "2026-11-05",
+  "last_earnings": "2026-07-30",
+  "ex_div": "2026-08-19",
+  "fetched": "2026-09-20"
+ },
+ "ABBV": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-07-31",
+  "ex_div": "2026-10-15",
+  "fetched": "2026-09-20"
+ },
+ "EGP": {
+  "sector": "Real Estate",
+  "next_earnings": "2026-10-22",
+  "last_earnings": "2026-07-22",
+  "ex_div": "2026-09-30",
+  "fetched": "2026-09-20"
+ },
+ "HZO": {
+  "sector": "Consumer Cyclical",
+  "next_earnings": "2026-11-12",
+  "last_earnings": "2026-07-23",
+  "ex_div": "",
+  "fetched": "2026-09-20"
+ },
+ "ACA": {
+  "sector": "Industrials",
+  "next_earnings": "2026-10-29",
+  "last_earnings": "2026-08-05",
+  "ex_div": "2026-10-15",
+  "fetched": "2026-09-20"
+ },
+ "TECH": {
+  "sector": "Healthcare",
+  "next_earnings": "2026-11-09",
+  "last_earnings": "2026-08-12",
+  "ex_div": "2026-08-24",
+  "fetched": "2026-09-20"
  }
 }

@@ -149,6 +149,17 @@ Check three things before reading a single row:
 - **VolRatio median across the shortlist** (printed in the last log line).
   Healthy is ~0.8–1.0; a holiday lull sits at 0.6–0.8; **0.2–0.3 is a
   broken session** and every volume-based flag is an artefact until rerun.
+  The high side is a trap too. **A median well above ~1.5 means the last
+  session was an expiry** — quad-witching is the third Friday of March,
+  June, September and December, and the S&P rebalance lands with it. On
+  2026-09-18 the median *liquid stock in the whole universe* traded 2.07×
+  its 20-day average and the shortlist median was 2.06, i.e. identical to
+  the market, so the Breakout flag's volume confirmation carried no
+  information and fired on 65 names against 12 the week before. When this
+  happens, do not trust the flag: recompute each candidate's volume over
+  the **four sessions before** the expiry day against its 20-day average,
+  and let that number, not the flag, decide what is really being
+  accumulated. Say so in the output.
 - **The universe diff**, if the symbol cache refreshed this week (printed
   as `REMOVED: ...`). Removed symbols are delistings and completed mergers.
   Step 3 checks them against the finalists' *acquirers*.
@@ -238,9 +249,14 @@ Then, **for every name that might make the table**, all six:
    not findings — they have fired on a completed divestiture and on a
    guidance raise. Read the item.
 5. **Events check — by hand, every finalist.** The earnings-date lookup
-   knows quarterly dates only. Confirm: no earnings inside the window (a
-   blank `NextEarnings` means the lookup *failed*, not that nothing is
-   due); **no monthly results** (Progressive publishes monthly; it landed
+   knows quarterly dates only. Note also that `EarningsInWindow` and
+   `ExDivInWindow` are computed over a **10-calendar-day lookahead from
+   the run date**, not over the five-session holding window, so they
+   over-flag: check the actual date against the actual window before
+   dropping a name. On 2026-09-20 they flagged three ex-dividends that all
+   fell on Sept 30, five days after the sell. Confirm: no earnings inside
+   the window (a blank `NextEarnings` means the lookup *failed*, not that
+   nothing is due); **no monthly results** (Progressive publishes monthly; it landed
    on a sell day while the lookup showed a date a month away); no investor
    day, conference data presentation, FDA date or ex-dividend date inside
    the window (`ExDivInWindow` is computed — it is not the whole check);

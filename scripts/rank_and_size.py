@@ -246,7 +246,8 @@ def emit_table(df, window):
     if a["binding"] == "regime cap":
         why = (f"Regime {a['regime']}/5 caps deployment at {a['cap']:.0%}. The book's measured "
                f"weekly move ({a['book_vol']:.1f}%) would have allowed more, but a trailing-ATR "
-               f"estimate understates an event week, which is what the cap is for")
+               f"estimate only knows what these names have already done, not what the week ahead "
+               f"holds, which is what the cap is for")
     elif a["binding"] == "vol target":
         why = (f"Regime {a['regime']}/5 sets a {a['target_vol']:.1f}% target move over the "
                f"{a['sessions']}-session week; fully invested the book would swing ~{a['book_vol']:.1f}%, "
