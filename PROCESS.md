@@ -80,7 +80,8 @@ The system-level checks, in order of importance:
 1. **Conviction calibration.** Do 4s out-return 3s? If not over 40+ picks,
    the rubric is noise and the sizing built on it is theatre.
 2. **Sizing vs equal-weight.** Inverse-vol sizing wins mechanically in
-   down weeks; count it validated only once it has held in up weeks too.
+   down weeks and has washed in up weeks (+1.75 pts net over the first
+   five batches). Watch for an up week where it costs more than ~0.5 pts.
 3. **Setup type and flagged-vs-clean.** Which labels are earning money.
 4. **Research funnel.** If picks trail the never-researched remainder, the
    research set started in the wrong place; if they trail the rejected

@@ -60,12 +60,15 @@ under-reacting to patterns already visible in the pooled data.
   green sector — and still lost, because the names chosen to *express*
   it did not behave like the call, while the mid-cap growth names the call
   said to avoid were held anyway and did the damage (−15%, −12%).
-- **The conviction rubric orders names in both directions of tape.** It
-  was monotonic across three down weeks (4s −0.86%, 3s −2.46%, 2s −3.34%,
-  n=43) and again in the first up week (4s +2.04% n=4, 3s +0.67% n=8). Four
-  cycles, 55 picks, no inversion. It is the only part of the judgment layer
-  with evidence behind it — which is why the rubric is kept identical week
-  to week and 2s are excluded by rule rather than sized down.
+- **The conviction rubric orders names in both directions of tape.**
+  It was monotonic across three down weeks (4s −0.86%, 3s −2.46%, 2s
+  −3.34%, n=43) and the first up week (4s +2.04% n=4, 3s +0.67% n=8). The
+  first inversion came in batch 2026-09-21 on two 4s (MPC −6.1%, FPS −2.6%
+  against 3s +0.64% n=11), both spent on crowded themes. Pooled over five
+  cycles and 68 picks it still orders: 4s −0.59% (n=17), 3s −1.20% (n=47).
+  It is the only part of the judgment layer with evidence behind it — which
+  is why the rubric is kept identical week to week and 2s are excluded by
+  rule rather than sized down.
 - **The ATR expected move is a dispersion estimate, not a range the week
   will fill.** Over a full quiet batch the median |realised| / expected was
   0.57, with only 17% of names exceeding 1.0; in an FOMC week three names
@@ -73,6 +76,11 @@ under-reacting to patterns already visible in the pooled data.
   nothing is scheduled and tight when something is. Use it for what the
   sizer uses it for, ranking how far names travel relative to each other,
   and never as a forecast of the week's move.
+- **Inverse-vol sizing is a down-week hedge that washes in up weeks.**
+  Against equal-weight it added +1.43, +0.29 and +0.22 pts in three down
+  weeks and −0.22 and +0.03 in two up weeks: +1.75 pts net over five
+  batches. It never paid for itself by picking winners; it pays by being
+  light in the names that fall hardest. Kept as is.
 - **VolRatio median is the canary.** Check it before trusting any
   volume-based flag. ~0.8–1.0 is healthy; 0.6–0.8 is a holiday lull;
   0.2–0.3 means a partial session was read as a close.
@@ -150,41 +158,69 @@ pooled data settles it, or deleted if the evidence goes the other way.
 - Does the Breakout edge survive in the pooled pick log? The backtest says
   yes on ~44 names/week. First batch went the other way — `breakout` picks
   −3.17% (n=3) against +1.15% for rs-continuation (n=7) — on a sample far
-  too small to weigh against 40 weeks. Settled by: `breakout`-labelled picks
+  too small to weigh against 40 weeks. The second batch added nothing: an
+  expiry week, so no pick was labelled `breakout`. Settled by: `breakout`-labelled picks
   vs the rest over 5+ batches.
-- Does sizing still beat equal-weight in an up week? First up week in:
-  it did not. Book +0.51% on capital against +0.73% equal-weight, a cost of
-  0.22 pts, which is exactly what the mechanism predicts when volatile names
-  lead. One of the two up weeks needed. Settled by: the second.
 - Does the research funnel add anything once it starts from a
-  breakout-weighted shortlist? Two cycles, both negative: picks +1.13% vs
-  +4.12% never-researched and +2.35% rejected this week, and −2.45% vs
-  −1.48% never-researched a cycle earlier. Picks have now trailed the
-  *rejected* set too, which points at selection rather than where the set
-  started. Settled by: a third batch. If it holds, change what the research
-  *does* — not how much of it there is.
+  breakout-weighted shortlist? Three batches, split 1–2. The first two
+  trailed (picks +1.13% vs +4.12% never-researched; −2.45% vs −1.48%); the
+  third, an expiry week, went the other way — picks −0.13% vs −0.88%
+  rejected and −1.46% never-researched. The third batch was meant to settle
+  it and did not. Settled by: 5 batches; if picks trail the rejected set in
+  three of five, change what the research *does*, not how much of it.
 - Is a conviction 3 written around a hole in its own thesis worse than a
   conviction 3 that is simply a good setup with no fresh catalyst? The two
   worst names in the first batch were the two whose theses named their own
   defect — VG −12.6% ("the QatarEnergy report is chatter, not a signed
   deal") and CRGY −7.3% ("one house already calls it fully priced after a
   64% run") — while the no-catalyst 3 (ATRC) returned +5.9%. n=2, so
-  suggestive only. Settled by: tagging which 3s are hole-in-thesis vs
-  no-catalyst over 3+ batches. If it holds, the hole becomes a 2, and 2s
+  suggestive only. Second batch went against it: the hole-in-thesis 3s
+  ETN (+2.3%, "weakest accumulation in the book") and ISRG (+2.9%, "the
+  de-rating question is not answered") both won, while the no-catalyst 3
+  MSM lost 1.0%. One for, one against. Settled by: tagging which 3s are
+  hole-in-thesis vs no-catalyst over 3+ batches. If it holds, the hole becomes a 2, and 2s
   are already excluded.
 - Is the regime deploy cap costing return in the weeks it binds? First
   capped batch that has been graded cost about 0.27 pts — +0.51% at 65%
   deployed against roughly +0.78% the same book fully deployed, in a week
   that finished up. It will bind often and it has a price; the question is
   whether the event weeks it protects pay for the quiet ones it taxes.
+  Second capped batch saved about 0.03 pts (−0.05% at 65% against about
+  −0.08% fully deployed). Net cost so far about 0.24 pts over two batches.
   Settled by: book return vs the same book at 100% deployed, over 5+ capped
   batches.
+- Do energy expressions keep losing while healthcare keeps winning? Energy
+  picks lost in both logged batches (−2.83% n=4, −4.58% n=2; pooled −3.41%
+  n=6, including both conviction-4 energy slots averaging −2.2%) while
+  healthcare won both (+2.72% n=3, +4.38% n=4). Sector returns are mostly
+  the tape, so this is not a rule yet. Settled by: 5 batches. If energy is
+  still the worst sector then, the crowded-theme conviction-4 slot stops
+  being spent on it by default.
 
 ## Dated notes
 
 Newest first, one entry per Step 0 review, six lines or fewer, at most four
 kept. Each says what the batch did and what was folded into the sections
 above.
+
+### 2026-09-27 — Batch 2026-09-28 written (regime 2, 12 names, 38% cash)
+
+Only 6 Breakout names; the Yahoo enrichment failed on all six (sector and
+earnings blank), so each was checked by hand. Funnel 37 → 12. Excluded by
+rule: PPLI, WBD (M&A), GME (bidding for eBay), TEM (acquiring Personalis), VKTX, RBLX
+(GAPFADE), GRAL (undated FDA decision after a +55% week). HHH held at 3
+for its Sept 30 annual meeting. Each 3 is tagged `ThreeType`
+(hole / no-catalyst) in candidates.json for the open question.
+
+### 2026-09-27 — Batch 2026-09-21 graded (6W/7L, −0.13%/name)
+
+Book −0.05% on capital vs SPY +0.67%, equal-weight −0.09%; the two 4s
+(MPC −6.1%, FPS −2.6%) lost and the eleven 3s made +0.64% — the rubric's
+first inversion, still monotonic pooled. Funnel reversed: picks beat both
+rejected (−0.88%) and never-researched (−1.46%). Folded in: sizing
+question retired to a standing lesson (+1.75 pts net over 5 batches, a
+wash in up weeks); conviction lesson updated; funnel, hole-in-thesis and
+deploy-cap questions re-scored; new question on energy vs healthcare.
 
 ### 2026-09-20 — Batch 2026-09-14 graded (8W/4L, +1.13%/name)
 

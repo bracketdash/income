@@ -1,0 +1,4 @@
+REGIME CALL — week of Mon Sep 28 - Fri Oct 2, 2026 (5 sessions)
+Narrow, rate-pressured melt-up: SPY and QQQ above their 50d (QQQ +3.3% on the week) while only 30% of liquid names are above theirs, 10Y 5.18% and rising after the Sept 16 hike, futures pricing hikes in October and December. Favours relative-strength leaders on confirming volume over speculative extension; the index is carried by AI megacaps.
+Events inside the window: August PCE Wed Sep 30 8:30; Micron earnings Wed Sep 30 after close (AI-hardware read-through); ISM Mfg Thu Oct 1; Nike earnings Thu Oct 1 after close; September payrolls Fri Oct 2 8:30 (the sell day). No shutdown (CR runs to Dec 11).
+Score: 2 (binary macro events PCE + payrolls in window; breadth 30%). Cap 65%.
